@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1000012413340866}
+  m_IsPrefabParent: 1
+--- !u!1 &1000012413340866
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4000013855655344}
+  - component: {fileID: 114000011258589362}
+  m_Layer: 0
+  m_Name: ObjectMaker
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4000013855655344
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012413340866}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.654, y: 0.893, z: 1.456}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114000011258589362
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012413340866}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b01691a56b9a68740bc12bd1302ebccb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  redCube: {fileID: 1000011901951008, guid: c3ea0b5a5e72ad645a2a704617155969, type: 2}
+  greenCube: {fileID: 1000011901951008, guid: 89656f020506b6a4d830f6efa9589e13, type: 2}
+  blueCube: {fileID: 1000011901951008, guid: 4835b99ccd59f7b448950240b091085a, type: 2}
+  redSphere: {fileID: 1000012553500084, guid: a4cc727b761234e47be17c4a2ed70d9a, type: 2}
+  greenSphere: {fileID: 1000012553500084, guid: 324bf4d2bb99d0e4cbdbd8e0d95ca14d,
+    type: 2}
+  blueSphere: {fileID: 1000012553500084, guid: 0d3c6c4be444cf94d93363a72612aa5e, type: 2}
+  cylinder: {fileID: 1000013995304726, guid: 657cf90ccf7e81f479d7a05841d36e87, type: 2}
+  quad: {fileID: 1000011827009512, guid: ed3d9cc3437f6424c8910e43dc7fd4c9, type: 2}
+  capsule: {fileID: 1000014177752226, guid: f5d3ae81b0872e642b1c9658e00238bc, type: 2}
+  multipleRedCubes: {fileID: 1000010975019054, guid: 861e23c435ffac4498458bc69780b350,
+    type: 2}
+  multipleGreenCubes: {fileID: 1000013738864034, guid: c9aa82d24b9e58c498deffd9e119666f,
+    type: 2}
+  multipleBlueCubes: {fileID: 1000011118882198, guid: aa8909c00c32a7f41b4a1ca2516cf040,
+    type: 2}
+  delta: 0
