@@ -1,5 +1,6 @@
 # PanoTrace
-PanoTrace is a manual image based 3D modeling tool for panoramic images in VR.
+
+[PanoTrace](https://dl.acm.org/doi/10.1145/3139131.3139158) is a manual image based 3D modeling tool for panoramic images in VR.
 It's created for HTC Vive and relies on installing steamVR.
 
 Please note that this project is made using Unity 2017.3.0f3 and has not been updated since.
